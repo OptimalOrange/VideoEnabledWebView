@@ -1,4 +1,4 @@
-package name.cpr;
+package name.cpr.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -7,7 +7,9 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.webkit.WebView;
 
-import cpr.name.videoenabledwebview.R;
+import cpr.name.videoenabledwebview.sample.R;
+import name.cpr.VideoEnabledWebChromeClient;
+import name.cpr.VideoEnabledWebView;
 
 public class ExampleActivity extends ActionBarActivity
 {
